@@ -47,3 +47,9 @@ converted from latent space to the original space.
 
 Returns a tuple ```(time, trajectory``` time is the time steps and trajectory is 
 the generated trajectory.
+
+## Example Output
+This is the output of ```example.py```. Given trajectories are end-effector poses
+with respect to object frame. x axis is time steps and y axis is x,y,z coordinates.
+
+![alt text](imgs/example.png)
